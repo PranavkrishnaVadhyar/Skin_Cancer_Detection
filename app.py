@@ -65,7 +65,7 @@ def predict_class(image):
 # OpenAI API Integration for treatment suggestions
 def get_treatment_suggestions(predicted_class):
     # Set up your OpenAI API key
-    openai.api_key = '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'
+    openai.api_key = '<OPENAI API KEY>'
 
     # Customize the prompt based on the predicted class
     prompt = f"What is the recommended treatment for {predicted_class} skin cancer?"
